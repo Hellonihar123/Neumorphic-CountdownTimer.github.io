@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"); */
+    background: #fdc600;
+    /* background-size: cover; */
+    /* background-position: center center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    margin-top: 5rem;
+    
+}
+
+input{
+    margin-top: 100px;
+    width: 300px;
+    height: 50px;
+    border-radius: 81px;
+    background: #ffc800;
+    box-shadow: inset -29px 29px 39px #c49a00,
+            inset 29px -29px 39px #fff600;
+    text-align: center;   
+  
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 81px;
+    background: linear-gradient(225deg, #e4b200, #ffd400);
+     box-shadow:  -29px 29px 39px #c39800,
+                   29px -29px 39px #fff400; 
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    color: aliceblue;
+}
+
+.countdown-el {
+    text-align: center;
+    border-radius: 81px;
+    background: linear-gradient(225deg, #e4b200, #ffd400);
+    box-shadow:  -29px 29px 39px #c39800,
+                  29px -29px 39px #fff400;
+                }
+    
+
+.countdown-el span {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
